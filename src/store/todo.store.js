@@ -20,7 +20,30 @@ const initStore = () =>
     console.log('InitStore');
 }
 
+const loadStore = () =>
+{
+    throw new Error('Not implemented');
+}
 
+const addTodo = ( description ) =>
+{
+    throw new Error('Not implemented');
+}
+
+const toggleTodo = (todoId) =>
+{
+    throw new Error('Not implemented');
+}
+
+const deleteTodo = ( todoId ) =>
+{
+    throw new Error('Not implemented');
+}
+
+const deleteCompleted = () =>
+{
+    throw new Error('Not implemented');
+}
 export default {
     initStore,
 }
