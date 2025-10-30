@@ -8,11 +8,11 @@ const Filters = {
 
 const state = {
     todos: [
-        new Todo('Piedra del alma'),
-        new Todo('Piedra del infinito'),
-        new Todo('Piedra del tiempo'),
-        new Todo('Piedra del Poder'),
-        new Todo('Piedra del campo'),
+        new Todo('Crear documentos'),
+        new Todo('Llamar a clientes'),
+        new Todo('Coordinar reuniones'),
+        new Todo('Orginizar archivo'),
+        new Todo('Limpiar oficina'),
     ],
     filter: Filters.All, 
 }
